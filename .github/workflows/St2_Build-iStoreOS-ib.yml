@@ -212,10 +212,10 @@ on:
       openwrt_kernel:
         description: "2、请选择内核版本"
         required: true
-        default: "6.6.y"
+        default: "6.12.y"
         type: choice
         options:
-          - 6.6.y
+          - 6.12.y
       auto_kernel:
         description: "自动使用最新内核-未匹配则自动"
         required: false
@@ -238,7 +238,7 @@ on:
           - dhcp
 
 env:
-  VERSION: 24.10.6
+  VERSION: 24.10
 
 jobs:
   build:

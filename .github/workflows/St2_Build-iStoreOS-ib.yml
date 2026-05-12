@@ -212,10 +212,10 @@ on:
       openwrt_kernel:
         description: "2、请选择内核版本"
         required: true
-        default: "6.12.83"
+        default: "6.6.y"
         type: choice
         options:
-          - 6.12.83
+          - 6.6.y
       auto_kernel:
         description: "自动使用最新内核-未匹配则自动"
         required: false
